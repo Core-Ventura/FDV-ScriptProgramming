@@ -9,7 +9,9 @@ Implementar una aplicación en Unity3D en la que habrá una serie de objetos dis
 5) Cuando el jugador adquiere el poder de un objeto el color de este debe cambiar a un color que se elija para el estado "gastado".
 
 Para esta actividad he generado dos scripts:
+
 **PlayerController:** es el encargado de controlar y gestionar las entradas y realizar el movimiento del jugador, en este caso, la bola azul.
+
 **Buff:** representa los *buffos* o beneficios del jugador. Para realizar la escena se crearon tres *GameObjects*, cada uno con su script *Buff* asociado, indicando vía parámetros las estadísticas o poderes a modificar del jugador.
 
 ![](Gif-FDV1.gif)
