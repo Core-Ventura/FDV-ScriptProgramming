@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
     {
         rb.AddForce(moveDirection*speed, ForceMode.Acceleration);
 
-        //If jumping and in the ground...
+        // If jumping and in the ground...
         if (Physics.Raycast(transform.position, -Vector3.up, 2.0f) && isJumpPressed)
         {
             rb.AddForce(Vector3.up*jumpForce, ForceMode.Impulse);
