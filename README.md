@@ -1,6 +1,4 @@
 # FDV-ScriptProgramming
-Actividad1
-
 C#. Programación de Scripts.
 
 Implementar una aplicación en Unity3D en la que habrá una serie de objetos dispuestos en la escena y que proporcionarán poderes al jugador (otro objeto).
