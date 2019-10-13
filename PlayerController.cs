@@ -12,7 +12,8 @@ public class PlayerController : MonoBehaviour
     public float maxScale = 8f;
 	private Rigidbody rb;
 	private Vector3 moveDirection;
-	void Start () 
+	
+    void Start () 
 	{
 		rb = this.GetComponent<Rigidbody> ();	
 	}

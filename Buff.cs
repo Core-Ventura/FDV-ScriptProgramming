@@ -15,6 +15,7 @@ public class Buff : MonoBehaviour
     private bool isRespawning = false;
     private SpriteRenderer sprite;
     private Animator animator;
+    
     void Start()
     {
         player = GameObject.FindObjectOfType<PlayerController>();
@@ -23,7 +24,7 @@ public class Buff : MonoBehaviour
         SetRandomPosition();
     }
 
-    void Update()
+    private void Update()
     {   
         // Begin the respawn timer...
         if(!isRespawning){
