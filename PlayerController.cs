@@ -4,17 +4,14 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
 	public float speed = 15.0f;
     public bool isJumpPressed = false;
     public float jumpForce = 2.0f;
     public float maxSpeed = 50f;
     public float maxJumpForce = 10f;
     public float maxScale = 8f;
-
 	private Rigidbody rb;
 	private Vector3 moveDirection;
-
 	void Start () 
 	{
 		rb = this.GetComponent<Rigidbody> ();	
