@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-	public float speed = 15.0f;
+    public float speed = 15.0f;
     public bool isJumpPressed = false;
     public float jumpForce = 2.0f;
     public float maxSpeed = 50f;
     public float maxJumpForce = 10f;
     public float maxScale = 8f;
-	private Rigidbody rb;
-	private Vector3 moveDirection;
+    private Rigidbody rb;
+    private Vector3 moveDirection;
 	
     void Start () 
-	{
-		rb = this.GetComponent<Rigidbody> ();	
-	}
+    {
+	rb = this.GetComponent<Rigidbody> ();	
+    }
 
     private void Update()
     {
@@ -24,7 +24,6 @@ public class PlayerController : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
         isJumpPressed = Input.GetButton("Jump");
-
         moveDirection = (v*Vector3.forward + h*Vector3.right).normalized;
     }
 
