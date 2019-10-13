@@ -11,9 +11,3 @@ Implementar una aplicación en Unity3D en la que habrá una serie de objetos dis
 -Cuando el jugador adquiere el poder de un objeto el color de este debe cambiar a un color que se elija para el estado "gastado".
 
 ![](https://j.gifs.com/mONG1A.gif)
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/MUQfKFzIOeU" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
