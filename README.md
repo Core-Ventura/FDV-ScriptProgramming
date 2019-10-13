@@ -9,5 +9,5 @@ Implementar una aplicación en Unity3D en la que habrá una serie de objetos dis
 -Cada tipo de objeto propociona una cantidad diferente de poder.
 -El jugador incrementa un determinado poder siempre que esté a una distancia menor que un umbral del objeto.
 -Cuando el jugador adquiere el poder de un objeto el color de este debe cambiar a un color que se elija para el estado "gastado".
+
 ![](Gif-FDV1.gif)
-![](https://j.gifs.com/mONG1A.gif)
