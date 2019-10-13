@@ -12,6 +12,6 @@ Para esta actividad he generado dos scripts:
 
 **PlayerController:** es el encargado de controlar y gestionar las entradas y realizar el movimiento del jugador, en este caso, la bola azul.
 
-**Buff:** representa los *buffos* o beneficios del jugador. Para realizar la escena se crearon tres *GameObjects*, cada uno con su script *Buff* asociado, indicando vía parámetros las estadísticas o poderes a modificar del jugador, tiempos de reaparición, radio de aparición y el límite de detección para comprobar la posición del jugador.
+**Buff:** representa un *buffos* o beneficio que puede utilizar el jugador. Para realizar la escena se crearon tres *GameObjects*, cada uno con su script *Buff* asociado, indicando vía parámetros las estadísticas o poderes a modificar del jugador, tiempos de reaparición, radio de aparición y el límite de detección para comprobar la posición del jugador.
 
 ![](Gif-FDV1.gif)
